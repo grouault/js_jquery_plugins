@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+.flashinfo{
+    color: #E2001A;
+    font-size: 1.36em;
+    font-weight: bold;
+    height: 20px;
+    left: 350px;
+    position: absolute;
+    text-align: center;
+    top: 64px;
+    width: 200px;
+
+}
+
+.flashinfo a{
+color: #E2001A;
+}

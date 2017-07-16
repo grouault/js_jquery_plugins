@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+.pgr-items {
+	display: block;
+}
+
+.pgr-items .pgr-nav{
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+}
+
+.pgr-items .pgr-nav a{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	display: block;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	border: solid 1px #E3E1DF;
+}
+
+.pgr-items .pgr-nav a.pgr-last{
+
+}
+
+.page-number, .page-next, .page-previous{
+	border: solid 1px gray;
+	margin-left: 5px;
+}
+
+.active {
+	background-color: #E3E1DF;
+	
+}
+
+.active a{
+	font-weight: bold;
+}
